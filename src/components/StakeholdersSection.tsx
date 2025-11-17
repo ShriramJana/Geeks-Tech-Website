@@ -1,27 +1,18 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Users } from "lucide-react";
-import stakeholder1 from "@/assets/stakeholder-1.jpg";
-import stakeholder2 from "@/assets/stakeholder-2.jpg";
-import stakeholder3 from "@/assets/stakeholder-3.jpg";
 
 const stakeholders = [
   {
-    name: "Alex Chen",
+    name: "Ted T Gopinath",
     role: "Chief Executive Officer",
-    description: "With over 15 years of industry experience, Alex leads our organization with vision and strategic insight.",
-    image: stakeholder1,
+    description: "With over 26+ years of experience in implementing large ERP transformations. Domain knowledge in Oil & Gas, Utility, and Life Sciences industries.",
+    image: null, // Placeholder - no image
   },
   {
-    name: "Sarah Martinez",
-    role: "Director of Operations",
-    description: "Sarah ensures operational excellence and drives innovation across all our key initiatives.",
-    image: stakeholder2,
-  },
-  {
-    name: "Michael Rodriguez",
-    role: "Head of Partnerships",
-    description: "Michael builds and maintains strategic relationships that drive our collaborative success.",
-    image: stakeholder3,
+    name: "Kalaivani Krishnamurthy",
+    role: "Chief Operating Officer",
+    description: "With 26+ years of experience in the Utility industry, solving business pain points and integrating GIS for operations.",
+    image: null, // Placeholder - no image
   },
 ];
 
@@ -43,19 +34,25 @@ export const StakeholdersSection = () => {
         </div>
 
         {/* Stakeholders Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {stakeholders.map((stakeholder, index) => (
             <Card
               key={stakeholder.name}
               className={`group hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/20 animate-fade-in-up stagger-delay-${index + 1}`}
             >
               <CardContent className="p-6">
-                <div className="relative mb-4 overflow-hidden rounded-lg">
-                  <img
-                    src={stakeholder.image}
-                    alt={stakeholder.name}
-                    className="w-full aspect-square object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                <div className="relative mb-4 overflow-hidden rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 aspect-square flex items-center justify-center">
+                  {stakeholder.image ? (
+                    <img
+                      src={stakeholder.image}
+                      alt={stakeholder.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <Users className="w-24 h-24 text-primary/30" />
+                    </div>
+                  )}
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-1 group-hover:text-primary transition-colors">
                   {stakeholder.name}

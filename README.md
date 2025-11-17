@@ -6,11 +6,11 @@ Getting Started
 To run and customize this project locally, follow these steps:
 
 text
-# Step 1: Clone the repository using your Git URL
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone <your-repo-url>
 
 # Step 2: Enter the project directory
-cd <YOUR_PROJECT_NAME>
+cd crisp-nav-scroll
 
 # Step 3: Install all dependencies
 npm install

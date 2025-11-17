@@ -1,36 +1,36 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Lightbulb, TrendingUp, Shield, Globe, Zap } from "lucide-react";
+import { Database, Map, Factory, FlaskConical, Zap, Settings } from "lucide-react";
 
 const capabilities = [
   {
-    icon: Target,
-    title: "Strategic Planning",
-    description: "Comprehensive strategic planning services that align with your organizational goals and drive sustainable growth.",
+    icon: Database,
+    title: "ERP Transformations",
+    description: "Large-scale ERP implementation and transformation services with 26+ years of expertise across multiple industries.",
   },
   {
-    icon: Lightbulb,
-    title: "Innovation Consulting",
-    description: "Cutting-edge innovation strategies that keep you ahead of industry trends and competitive challenges.",
+    icon: Map,
+    title: "GIS Integration",
+    description: "Geographic Information System integration for utility operations, solving business pain points and enhancing efficiency.",
   },
   {
-    icon: TrendingUp,
-    title: "Business Development",
-    description: "Proven methodologies to expand your market presence and accelerate business growth opportunities.",
-  },
-  {
-    icon: Shield,
-    title: "Risk Management",
-    description: "Robust risk assessment and mitigation strategies to protect your organization and ensure continuity.",
-  },
-  {
-    icon: Globe,
-    title: "Global Expansion",
-    description: "Expert guidance for entering new markets and establishing successful international operations.",
+    icon: Factory,
+    title: "Oil & Gas Solutions",
+    description: "Specialized ERP and technology solutions tailored for the Oil & Gas industry's unique operational requirements.",
   },
   {
     icon: Zap,
-    title: "Digital Transformation",
-    description: "End-to-end digital transformation solutions that modernize operations and enhance efficiency.",
+    title: "Utility Industry Expertise",
+    description: "Deep domain knowledge in utility operations, business process optimization, and operational excellence.",
+  },
+  {
+    icon: FlaskConical,
+    title: "Life Sciences Solutions",
+    description: "Comprehensive technology solutions for Life Sciences companies, ensuring compliance and operational efficiency.",
+  },
+  {
+    icon: Settings,
+    title: "Business Process Optimization",
+    description: "End-to-end business process analysis and optimization to streamline operations and drive sustainable growth.",
   },
 ];
 
@@ -44,7 +44,7 @@ export const CapabilitiesSection = () => {
             Our Capabilities
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive solutions designed to meet your organization's unique needs
+            Industry-leading ERP and GIS solutions tailored for Oil & Gas, Utility, and Life Sciences organizations
           </p>
         </div>
 

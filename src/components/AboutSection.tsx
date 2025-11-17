@@ -2,11 +2,11 @@ import { CheckCircle } from "lucide-react";
 import aboutImage from "@/assets/about-image.jpg";
 
 const values = [
-  "Excellence in every engagement",
-  "Innovation-driven solutions",
-  "Collaborative partnerships",
-  "Sustainable growth focus",
-  "Integrity and transparency",
+  "26+ years of industry expertise",
+  "ERP transformation excellence",
+  "GIS integration specialization",
+  "Industry-focused solutions",
+  "Client-centric approach",
 ];
 
 export const AboutSection = () => {
@@ -29,18 +29,17 @@ export const AboutSection = () => {
           {/* Content Column */}
           <div className="animate-slide-in-right">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About Us
+              About Geeks Technologies Inc.
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We are a forward-thinking organization committed to delivering exceptional value 
-              through strategic partnerships and innovative solutions. With a team of dedicated 
-              professionals and a proven track record, we help organizations navigate complex 
-              challenges and achieve their most ambitious goals.
+              Geeks Technologies Inc. is a leading technology consulting firm specializing in large-scale 
+              ERP transformations and GIS integration. With over 26 years of combined experience, our 
+              leadership team brings deep domain expertise in Oil & Gas, Utility, and Life Sciences industries.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Founded on the principles of excellence and integrity, we have grown into a trusted 
-              partner for organizations seeking transformative change. Our approach combines deep 
-              industry expertise with cutting-edge methodologies to create sustainable impact.
+              Based in Irving, Texas, we are committed to delivering innovative solutions that solve complex 
+              business challenges. Our approach combines extensive industry knowledge with cutting-edge 
+              technology to help organizations achieve operational excellence and sustainable growth.
             </p>
 
             {/* Values List */}

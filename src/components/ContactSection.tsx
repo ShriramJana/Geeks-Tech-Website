@@ -72,8 +72,11 @@ export const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Contact Us
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-2">
             Get in touch with us to discuss how we can help your organization thrive
+          </p>
+          <p className="text-lg font-semibold text-foreground">
+            Geeks Technologies Inc.
           </p>
         </div>
 
@@ -96,10 +99,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Email</h4>
                   <a
-                    href="mailto:contact@yourbrand.com"
+                    href="mailto:tgopinath@geeksstechnologies.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    contact@yourbrand.com
+                    tgopinath@geeksstechnologies.com
                   </a>
                 </div>
               </div>
@@ -111,10 +114,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Phone</h4>
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+12147766889"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (234) 567-890
+                    +1 (214) 776-6889
                   </a>
                 </div>
               </div>
@@ -124,11 +127,10 @@ export const ContactSection = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Office</h4>
+                  <h4 className="font-semibold text-foreground mb-1">Address</h4>
                   <p className="text-muted-foreground">
-                    123 Business Avenue<br />
-                    Suite 100<br />
-                    New York, NY 10001
+                    1328 Valley Vista Drive<br />
+                    Irving, TX 75063
                   </p>
                 </div>
               </div>

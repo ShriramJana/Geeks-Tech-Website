@@ -12,24 +12,24 @@ const footerLinks = [
     title: "Company",
     links: [
       { label: "About Us", href: "#about" },
-      { label: "Careers", href: "#" },
-      { label: "Press", href: "#" },
+      { label: "Leadership", href: "#leadership" },
+      { label: "Contact Us", href: "#contact" },
     ],
   },
   {
     title: "Services",
     links: [
-      { label: "Consulting", href: "#capabilities" },
-      { label: "Training", href: "#" },
-      { label: "Support", href: "#" },
+      { label: "ERP Transformations", href: "#capabilities" },
+      { label: "GIS Integration", href: "#capabilities" },
+      { label: "Industry Solutions", href: "#capabilities" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { label: "Blog", href: "#" },
-      { label: "Case Studies", href: "#" },
-      { label: "FAQs", href: "#" },
+      { label: "Credentials", href: "#credentials" },
+      { label: "Stakeholders", href: "#stakeholders" },
+      { label: "Contact", href: "#contact" },
     ],
   },
 ];
@@ -50,10 +50,10 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">YourBrand</h3>
+            <h3 className="text-2xl font-bold mb-4">Geeks Technologies Inc.</h3>
             <p className="text-background/80 mb-6 leading-relaxed">
-              Empowering organizations through innovative solutions and strategic partnerships 
-              for sustainable growth and success.
+              Empowering organizations through innovative ERP solutions, GIS integration, and strategic partnerships 
+              for sustainable growth and success across Oil & Gas, Utility, and Life Sciences industries.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
@@ -102,7 +102,7 @@ export const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-background/60 text-sm">
-              © {new Date().getFullYear()} YourBrand. All rights reserved.
+              © {new Date().getFullYear()} Geeks Technologies Inc. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-background/60 hover:text-accent transition-colors">

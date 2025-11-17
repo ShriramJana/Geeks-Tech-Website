@@ -6,6 +6,7 @@ const navItems = [
   { id: "stakeholders", label: "Stakeholders" },
   { id: "capabilities", label: "Capabilities" },
   { id: "about", label: "About Us" },
+  { id: "leadership", label: "Leadership" },
   { id: "credentials", label: "Credentials" },
   { id: "contact", label: "Contact Us" },
 ];
@@ -49,11 +50,11 @@ export const Navigation = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-md"
-          : "bg-transparent"
-      }`}
+          ? "bg-white bg-opacity-95 backdrop-blur-md shadow-lg"
+          : "bg-white bg-opacity-80 shadow-lg"
+      } text-gray-900`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
@@ -62,7 +63,7 @@ export const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
-            YourBrand
+            Geeks Technologies Inc.
           </button>
 
           {/* Desktop Navigation */}

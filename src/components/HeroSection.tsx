@@ -26,12 +26,13 @@ export const HeroSection = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-3xl animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Building Excellence
+            Transforming Business
             <br />
-            <span className="text-accent-light">Together</span>
+            <span className="text-accent-light">Through Technology</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in-up stagger-delay-1">
-            Empowering organizations through innovative solutions, strategic partnerships, and unwavering commitment to excellence.
+            Geeks Technologies Inc. delivers innovative ERP transformations and GIS integration solutions 
+            for Oil & Gas, Utility, and Life Sciences industries.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up stagger-delay-2">
             <Button

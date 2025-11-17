@@ -4,27 +4,27 @@ import { Award, Star, Trophy, Medal } from "lucide-react";
 const credentials = [
   {
     icon: Award,
-    title: "ISO 9001 Certified",
-    description: "Quality Management System certification demonstrating our commitment to excellence",
-    year: "2023",
+    title: "26+ Years Experience",
+    description: "Extensive track record in ERP transformations and GIS integration across multiple industries",
+    year: "Established",
   },
   {
     icon: Star,
-    title: "Industry Excellence Award",
-    description: "Recognized for outstanding innovation and service delivery",
-    year: "2023",
+    title: "Industry Expertise",
+    description: "Deep domain knowledge in Oil & Gas, Utility, and Life Sciences industries",
+    year: "Ongoing",
   },
   {
     icon: Trophy,
-    title: "Best Workplace Award",
-    description: "Honored for creating an exceptional work environment and culture",
-    year: "2022",
+    title: "Large-Scale Implementations",
+    description: "Proven success in implementing complex ERP transformations for enterprise organizations",
+    year: "Ongoing",
   },
   {
     icon: Medal,
-    title: "Sustainability Leader",
-    description: "Acknowledged for environmental responsibility and sustainable practices",
-    year: "2022",
+    title: "GIS Integration Specialists",
+    description: "Expertise in integrating Geographic Information Systems for utility operations and business optimization",
+    year: "Ongoing",
   },
 ];
 
@@ -81,10 +81,10 @@ export const CredentialsSection = () => {
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {[
-            { value: "15+", label: "Years Experience" },
-            { value: "500+", label: "Projects Delivered" },
-            { value: "200+", label: "Happy Clients" },
-            { value: "50+", label: "Team Members" },
+            { value: "26+", label: "Years Experience" },
+            { value: "3", label: "Core Industries" },
+            { value: "2", label: "Key Leaders" },
+            { value: "100%", label: "Client Focus" },
           ].map((stat, index) => (
             <div
               key={stat.label}
