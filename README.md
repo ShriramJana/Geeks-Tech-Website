@@ -1,50 +1,97 @@
-Welcome to Your Project
-Overview
-This repository contains the source code for a modern, responsive, multi-page web application. The project features intuitive navigation, modular architecture, and is built to scale for a variety of business or personal needs.
+# Geeks Technologies Inc. Website
 
-Getting Started
-To run and customize this project locally, follow these steps:
+A modern, responsive website for Geeks Technologies Inc., showcasing ERP transformations, GIS integration, and industry expertise in Oil & Gas, Utility, and Life Sciences.
 
-text
-# Step 1: Clone the repository
+## Features
+
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Smooth Navigation**: Fixed navbar with smooth scroll to sections
+- **Modern UI**: Built with shadcn/ui components and Tailwind CSS
+- **Contact Form**: Interactive contact form with validation
+- **Leadership Section**: Showcases company leadership team
+- **Service Showcase**: Highlights ERP transformations, GIS integration, and industry solutions
+
+## Tech Stack
+
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - UI component library
+- **React Router** - Routing
+- **Lucide React** - Icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
 git clone <your-repo-url>
-
-# Step 2: Enter the project directory
 cd crisp-nav-scroll
+```
 
-# Step 3: Install all dependencies
+2. Install dependencies:
+```bash
 npm install
+```
 
-# Step 4: Launch the development server with hot reloading
+3. Start the development server:
+```bash
 npm run dev
-Editing the Code
-You can edit the project files using your preferred code editor or integrated development environment (IDE). After making changes, simply commit and push them back to your repository.
+```
 
-You may also edit files directly in GitHub using the pencil icon at the top-right of any file in the repository.
+4. Open your browser and navigate to `http://localhost:5173`
 
-Technologies Used
-Vite
+## Available Scripts
 
-TypeScript
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-React
+## Project Structure
 
-shadcn/ui
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Navigation.tsx  # Main navigation
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── LeadershipSection.tsx
+│   ├── ContactSection.tsx
+│   └── ...
+├── pages/              # Page components
+├── assets/            # Images and static assets
+└── lib/               # Utility functions
+```
 
-Tailwind CSS
-
-Deployment
-To deploy this project, use any static site hosting solution that supports React and Vite builds, such as Vercel, Netlify, or your own hosting provider.
+## Deployment
 
 Build for production:
-
-text
+```bash
 npm run build
-Deploy the output folder according to your host’s requirements.
+```
 
-Custom Domains
-You can point a custom domain to your hosted site using settings from your domain registrar and your deployment platform.
+The `dist` folder will contain the production-ready files. Deploy to any static hosting service like:
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
 
-Contributing
-Pull requests are welcome! For significant changes or feature proposals, please open an issue to discuss what you’d like to change.
+## Contact Information
 
+- **Company**: Geeks Technologies Inc.
+- **Email**: tgopinath@geeksstechnologies.com
+- **Phone**: +1 (214) 776-6889
+- **Address**: 1328 Valley Vista Drive, Irving, TX 75063
+
+## License
+
+All rights reserved © 2025 Geeks Technologies Inc.
